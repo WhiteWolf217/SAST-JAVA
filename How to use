@@ -7,6 +7,9 @@ Make sure you have the following installed:
   2. Apache Maven
 
 
+🗂️ Extract the ZIP File
+
+
 🛠️ Build the Project
 1. Open a terminal/command prompt.
 2. Navigate to the project directory (where pom.xml is located).
