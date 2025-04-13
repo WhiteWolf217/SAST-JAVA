@@ -30,3 +30,6 @@ Make sure you have the following installed:
 2. Linux/macOS: It checks for common shell commands and potentially dangerous operations like bash, sh, or system().
 
 3. The program supports detecting dangerous OS command injections on all major platforms.
+
+
+There is also a TestApp.java file it for help.
