@@ -1,1 +1,29 @@
+🚀 How to Use
 
+
+📦 Prerequisites
+Make sure you have the following installed:
+  1. Java 11+
+  2. Apache Maven
+
+
+🛠️ Build the Project
+1. Open a terminal/command prompt.
+2. Navigate to the project directory (where pom.xml is located).
+      cd /path/to/SAST-JAVA
+
+3. Then, run the following command to compile the project:
+      mvn compile
+
+
+▶️ Run the Analyzer
+1. To run the Static Application Security Testing (SAST) Analyzer:
+      mvn exec:java -Dexec.args="path/to/YourFile.java"
+
+
+⚠️ OS-Specific Notes
+1. Windows: The analyzer checks for Windows-specific dangerous OS commands (e.g., cmd.exe).
+
+2. Linux/macOS: It checks for common shell commands and potentially dangerous operations like bash, sh, or system().
+
+3. The program supports detecting dangerous OS command injections on all major platforms.
